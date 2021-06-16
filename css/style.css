@@ -1,5 +1,34 @@
+/*common*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Rubik mono one', sans-serif;
+    color: yellow;
+    background-color: red;
+}
+/*fine common*/
+
+/* navigation */
+nav{
+    margin-top: 40px;
+    margin-left: 87%;
+}
+
+nav li{
+    display: inline;
+    list-style: none;
+    padding-right: 10px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px 14px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+/* fine navigation */
